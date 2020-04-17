@@ -1,0 +1,38 @@
+Recurrent Neural Networks (RNN) are very effective for Natural Language Processing and other sequence tasks because they have 
+"memory". They can read inputs  x⟨t⟩(such as words) one at a time, and remember some information/context through the hidden
+layer activations that get passed from one time-step to the next. This allows a unidirectional RNN to take information from
+the past to process later inputs. A bidirectional RNN can take context from both the past and the future.
+
+Notation:
+Superscript [l]
+  denotes an object associated with the lth
+  layer.
+Superscript (i)
+  denotes an object associated with the ith
+  example.
+Superscript ⟨t⟩
+  denotes an object at the tth
+  time-step.
+Subscript i
+  denotes the ith
+  entry of a vector.
+Example:
+a(2)[3]<4>5
+  denotes the activation of the 2nd training example (2), 3rd layer [3], 4th time step , and 5th entry in the vector.
+
+Pre-requisites
+We assume that you are already familiar with numpy.
+To refresh your knowledge of numpy, you can review course 1 of this specialization "Neural Networks and Deep Learning".
+Specifically, review the week 2 assignment "Python Basics with numpy (optional)".
+Be careful when modifying the starter code
+
+When working on graded functions, please remember to only modify the code that is between the
+#### START CODE HERE
+and
+#### END CODE HERE
+
+In particular, Be careful to not modify the first line of graded routines. These start with:
+# GRADED FUNCTION: routine_name
+The automatic grader (autograder) needs these to locate the function.
+Even a change in spacing will cause issues with the autograder.
+It will return 'failed' if these are modified or missing."
