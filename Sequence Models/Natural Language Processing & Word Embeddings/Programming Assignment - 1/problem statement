@@ -1,0 +1,10 @@
+Operations on word vectors
+
+Because word embeddings are very computationally expensive to train, most ML practitioners will load a pre-trained set of 
+embeddings.
+
+Embedding vectors versus one-hot vectors
+Recall from the lesson videos that one-hot vectors do not do a good job of capturing the level of similarity between words 
+(every one-hot vector has the same Euclidean distance from any other one-hot vector).
+Embedding vectors such as GloVe vectors provide much more useful information about the meaning of individual words.
+Lets now see how you can use GloVe vectors to measure the similarity between two words.
