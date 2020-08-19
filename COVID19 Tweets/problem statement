@@ -1,0 +1,8 @@
+These tweets are collected using Twitter API and a Python script. A query for this high-frequency hashtag (#covid19) is run on a daily basis for a certain time 
+period, to collect a larger number of tweets samples. The collection script can be found here: https://github.com/gabrielpreda/covid-19-tweets
+
+Content
+The tweets have #covid19 hashtag. Collection started on 25/7/2020, with an initial 17k batch and will continue on a daily basis.
+
+Inspiration
+You can use this data to dive into the subjects that use this hashtag, look to the geographical distribution, evaluate sentiments, looks to trends.
