@@ -1,0 +1,11 @@
+In this section, we will build a network to classify Reuters newswires into 46 different mutually-exclusive topics. Since we have many classes, this problem is an 
+instance of "multi-class classification", and since each data point should be classified into only one category, the problem is more specifically an instance of 
+"single-label, multi-class classification". If each data point could have belonged to multiple categories (in our case, topics) then we would be facing a 
+"multi-label, multi-class classification" problem.
+
+We will be working with the Reuters dataset, a set of short newswires and their topics, published by Reuters in 1986. It's a very simple, widely used toy dataset 
+for text classification. There are 46 different topics; some topics are more represented than others, but each topic has at least 10 examples in the training set. 
+Like IMDB and MNIST, the Reuters dataset comes packaged as part of Keras.
+
+
+
