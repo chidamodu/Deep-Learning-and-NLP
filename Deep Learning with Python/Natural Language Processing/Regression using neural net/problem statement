@@ -1,0 +1,14 @@
+Another common type of machine learning problem is "regression", which consists of predicting a continuous value instead of a discrete label. For instance, 
+predicting the temperature tomorrow, given meteorological data, or predicting the time that a software project will take to complete, given its specifications.
+
+Do not mix up "regression" with the algorithm "logistic regression": confusingly, "logistic regression" is not a regression algorithm, it is a classification 
+algorithm.
+
+The Boston Housing Price dataset
+We will be attempting to predict the median price of homes in a given Boston suburb in the mid-1970s, given a few data points about the suburb at the time, 
+such as the crime rate, the local property tax rate, etc.
+
+The dataset we will be using has another interesting difference from our two previous examples: it has very few data points, only 506 in total, split between 
+404 training samples and 102 test samples, and each "feature" in the input data (e.g. the crime rate is a feature) has a different scale. For instance some 
+values are proportions, which take a values between 0 and 1, others take values between 1 and 12, others between 0 and 100...
+
